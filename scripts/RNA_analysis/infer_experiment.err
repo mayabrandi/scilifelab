@@ -1,0 +1,2 @@
+/var/spool/slurmd/job4506649/slurm_script: line 14: tophat_out_*/RSeqC.out: No such file or directory
+grep: tophat_out_*/RSeqC.out: No such file or directory
