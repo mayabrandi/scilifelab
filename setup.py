@@ -28,14 +28,9 @@ setup(name = "scilifelab",
     description = "Useful scripts for use at SciLifeLab",
     license = "MIT",
     scripts = glob.glob('scripts/*.py') +
-<<<<<<< HEAD
                 glob.glob('scripts/analysisDB/*.py') + 
                 glob.glob('scripts/RNA_analysis/*.py') + 
                 glob.glob('scripts/bcbb_helpers/*.py') + 
-=======
-                glob.glob('scripts/RNA_analysis/*.py') +
-                glob.glob('scripts/bcbb_helpers/*.py') +
->>>>>>> ad3e50ef59edddd3d64e87fd64a45ddd22d7b358
                 glob.glob('scilifelab/lims_utils/*.py') +
                 ['scripts/pm', 'scripts/stdin_to_redis'],
     install_requires = [
